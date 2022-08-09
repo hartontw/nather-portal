@@ -6,7 +6,15 @@ body {
   flex-direction: column; 
   background-image:
     linear-gradient( rgba(0,0,0,.75), rgba(0,0,0,.5) ),
-    url("images/background.gif");
+    url("images/portrait.gif");
+}
+
+@media (min-aspect-ratio: 1/1) {
+  body {
+    background-image:
+      linear-gradient( rgba(0,0,0,.75), rgba(0,0,0,.5) ),
+      url("images/landscape.gif");
+  }
 }
 
 main {

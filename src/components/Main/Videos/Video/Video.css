@@ -7,12 +7,11 @@
 }
 
 .player {
-    width: 50vw;
-    height: 35.3vw;
-    margin-right: 12vw;
+    width: 47.7vw;
+    height: 33.6vw;
+    margin-right: 14.1vw;
     grid-column-start: 1;
     grid-row-start: 1;
-    border-radius: 2vw;
     z-index: 0;
 }
 
