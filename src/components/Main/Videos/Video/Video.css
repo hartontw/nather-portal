@@ -1,0 +1,58 @@
+.video {
+    margin: 2vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+}
+
+.player {
+    width: 50vw;
+    height: 35.3vw;
+    margin-right: 12vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border-radius: 2vw;
+    z-index: 0;
+}
+
+.tv {
+    width: 80vw;
+    height: 51.8vw;
+    grid-column-start: 1;
+    grid-row-start: 1;  
+    pointer-events: none;  
+    z-index: 3;
+}
+
+.reflections {
+    width: 50vw;
+    height: 35.3vw;
+    margin-right: 12vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    box-shadow: inset 2vw 2vh 2vh #555a;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.scanlines {
+    width: 50vw;
+    height: 50vw;
+    margin-right: 13vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    pointer-events: none;
+    animation-name: scan;
+    -webkit-animation-name: scan;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+@keyframes scan {
+    0%    { transform: translateY(-2%); }
+    100%  { transform: translateY(2%); }
+  }

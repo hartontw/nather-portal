@@ -1,0 +1,28 @@
+.project {
+    text-align: center;    
+    padding: 1vh 1vw;
+    margin: 1vh 2vw;
+}
+
+.project-title {
+    font-size: 2em;
+    margin: 0.5vh 0;
+    background-color: #000A;
+}
+
+.project-content {
+    background-color: #000A;
+    display: flex;
+    flex-direction: row;
+    padding: 1vh 1vw;
+}
+
+.project-content img {
+    width: 35vw;
+}
+
+.project-content p {
+    text-align: justify;
+    padding: 0 1vh;
+    margin: 0;
+}

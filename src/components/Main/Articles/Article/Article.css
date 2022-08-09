@@ -1,0 +1,56 @@
+.article {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 2vw;
+    color: black;
+}
+
+.background {
+    z-index: 0;
+    width: 9cm;
+    height: 6cm;
+    transform: rotate(-0.5deg) translate(-1vw, -1vw);
+    background-color:#d5d5d5;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border-radius: 0 0 0 1%;
+    border: 0.25vw solid black;
+}
+
+.front {
+    z-index: 1;
+    width: 9cm;
+    height: 6cm;
+    background-color:whitesmoke;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border: 2px solid black;
+    border-radius: 0 0 0 1%;
+    text-align: center;
+}
+
+.title {
+    margin: 0cm;
+}
+
+.article-date {
+    margin: 0;
+    font-style: italic;
+}
+
+.line {
+    width: 80%;
+}
+
+.thumbnail {
+    width: 2.5cm;
+    margin: 1vw;
+    float: left;  
+}
+
+.text {
+    text-align: justify;    
+    margin: 0 1vw;    
+}
+
