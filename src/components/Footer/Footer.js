@@ -8,11 +8,11 @@ function Footer() {
         <footer>
             <p className='copy'>Naher {new Date().getFullYear()}</p>
             <div className="social">
-                <img className='social-btn' src={youtube} alt="YouTube" />
-                <img className='social-btn' src={twitter} alt="Twitter" />
-                <img className='social-btn' src={linkedin} alt="LinkedIn" />
+                <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><img className='social-btn' src={youtube} alt="YouTube" /></a>
+                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img className='social-btn' src={twitter} alt="Twitter" /></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><img className='social-btn' src={linkedin} alt="LinkedIn" /></a>
             </div>            
-            <p className='developed'>Developed by <a href="https://harton.info" target="_blank">Harton</a></p>
+            <p className='developed'>Developed by <a href="https://harton.info" target="_blank" rel="noreferrer">Harton</a></p>
         </footer>
     );
 }
